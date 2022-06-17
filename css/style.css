@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    bord: 1px solid red;
+}
+
+.fr-height {
+    background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5)), url(../img/xinstagram2.png.pagespeed.ic.lmJ-1U2YHH.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 20vh;
+}
+
+.shadow {
+    text-shadow: 4px 4px 2px darkgreen;
+}
+
+.for-shadow {
+    text-shadow: 2px 2px 2px blue;
+}
+
+.for-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    object-fit: cover;
+    border-radius: 30%;
+    height: 50px;
+    width: 50px;
+}
+
+.reduce {
+    width: 80%;
+    height: 25vh;
+    object-fit: cover;
+    position: relative;
+    transition: all 0.5s ease-out;
+}
+
+.reduce:hover {
+    transform: scale(1.11);
+}
+
+.bg-success {
+    background-color: rgba(136, 240, 140, 0.5) !important;
+}
+
+.for-up {
+    position: absolute;
+    top: 7%;
+    left: 14%;
+    background: rgba(255, 7, 90, 0.8);
+    padding: 6px;
+    border-radius: 25%;
+}
+
+.btn-outline-danger {
+    padding: 4px !important;
+}
+
+.text-primary {
+    color: rgb(22, 79, 236) !important;
+}
+
+.card-txt p{
+    font-weight: 500;
+}
+
+.for-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.for-cardd {
+    width: 50%;
+}
+
+.for-tag p{
+    text-decoration: none;
+    color: white;
+}
+
+.for-list {
+    list-style: none;
+    display: inline;
+}
+
+.for-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 769px) {
+    .to-reduce {
+        max-height: 60vh !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .to-reduce {
+        max-height: 100vh !important;
+    }
+
+    .for-up {
+        left: 13%;
+    }
+}
+

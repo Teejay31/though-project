@@ -1,5 +1,3 @@
-
-
 let postWrapper = document.querySelector('#post-holder');
 let postForm = document.querySelector('#post-form')
 let title = document.querySelector('#title')

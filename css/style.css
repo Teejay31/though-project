@@ -6,7 +6,7 @@
 }
 
 .fr-height {
-    background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5)), url(../img/xinstagram2.png.pagespeed.ic.lmJ-1U2YHH.webp);
+    background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.2), rgb(124, 112, 112)), url(../img/xinstagram2.png.pagespeed.ic.lmJ-1U2YHH.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,11 +19,6 @@
 
 .for-shadow {
     text-shadow: 2px 2px 2px blue;
-}
-
-.for-flex {
-    display: flex;
-    justify-content: center;
 }
 
 .logo {
@@ -63,37 +58,11 @@
 }
 
 .text-primary {
-    color: rgb(22, 79, 236) !important;
+    color: rgb(5, 50, 172) !important;
 }
 
 .card-txt p{
     font-weight: 500;
-}
-
-.for-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.for-cardd {
-    width: 50%;
-}
-
-.for-tag p{
-    text-decoration: none;
-    color: white;
-}
-
-.for-list {
-    list-style: none;
-    display: inline;
-}
-
-.for-list li a{
-    text-decoration: none;
-    color: white;
 }
 
 @media (max-width: 769px) {
@@ -111,4 +80,3 @@
         left: 13%;
     }
 }
-

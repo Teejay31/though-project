@@ -83,4 +83,12 @@
     .for-up {
         left: 13%;
     }
+
+    .nav-item a {
+        margin-left: 0 !important;
+    }
+
+    .re-vh {
+        height: auto !important;
+    }
 }
